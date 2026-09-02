@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Engineering junior at the University of Michigan-Shanghai Jiao Tong University Joint Institute
+subtitle: Computer Engineering junior at the University of Michigan; Electrical and Computer Engineering at UM-SJTU Joint Institute
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a junior majoring in Computer Engineering at the University of Michigan-Shanghai Jiao Tong University Joint Institute. My interests lie at the intersection of computer vision, robotics, and intelligent systems.
+I am a junior majoring in Computer Engineering at the University of Michigan. My interests lie at the intersection of computer vision, robotics, and intelligent systems.
 
 My recent work includes a neuro-symbolic multi-agent system for long-form narrative generation and an incremental 3D reconstruction pipeline using multi-view geometry, camera pose estimation, triangulation, and bundle adjustment. I am particularly interested in 3D vision, visual SLAM, robot perception, and reliable agent systems.
 
