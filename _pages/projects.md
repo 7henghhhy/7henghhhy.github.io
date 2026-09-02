@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research projects in intelligent systems and 3D vision.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 1
+display_categories: [research]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

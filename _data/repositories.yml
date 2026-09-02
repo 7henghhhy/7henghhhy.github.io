@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - 7henghhhy
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - 7henghhhy/POL2610
+  - 7henghhhy/AI-Introduction-Homework-KCL-WP
+  - 7henghhhy/7henghhhy.github.io
