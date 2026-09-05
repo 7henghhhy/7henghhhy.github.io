@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: # The supplied PDF contains a private phone number, so it is not published.
+cv_pdf: /assets/pdf/Haoyuan_Zheng_CV.pdf
 cv_format: rendercv # options: rendercv, jsonresume
 description: Education, research experience, awards, and technical skills.
 toc:

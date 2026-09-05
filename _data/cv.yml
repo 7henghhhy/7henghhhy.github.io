@@ -10,23 +10,22 @@ cv:
     - network: GitHub
       username: 7henghhhy
 
-  address:
-    street: 2521 Meade Ct
-    city: Ann Arbor
-    region: Michigan
-    postalCode: "48105"
-    countryCode: US
-
   sections:
     Education:
-      - institution: University of Michigan-Shanghai Jiao Tong University Joint Institute
-        location: Shanghai, China / Ann Arbor, MI
+      - institution: University of Michigan
+        location: Ann Arbor, MI
+        area: Computer Engineering
+        studyType: Bachelor of Science in Engineering (B.S.E.)
+        start_date: Sep 2026
+        end_date: present
+      - institution: Shanghai Jiao Tong University (SJTU)
+        location: Shanghai, China
         area: Electrical and Computer Engineering
         studyType: Bachelor of Science in Engineering (B.S.E.)
         start_date: Sep 2024
         end_date: Jun 2028 (expected)
         score: 3.68/4.0
-        courses: Honors Mathematics IV (A+), Introduction to Circuits (A+), Physics II (A), Signals and Systems (A-)
+        courses: Honors Mathematics IV (A+), Introduction to Circuits (A+), Physics II (A), Signals and Systems (A-), Data Structures and Algorithms
 
     Research Experience:
       - company: Shanghai Jiao Tong University
@@ -45,11 +44,11 @@ cv:
         location: Shanghai, China
         start_date: Jul 2026
         end_date: Aug 2026
-        summary: 3D vision and visual SLAM research project mentored by Tianchen Deng.
+        summary: 3D vision and visual SLAM research project mentored by Tianchen Deng, Ph.D. student.
         highlights:
-          - Studied multi-view geometry, camera pose estimation, 3D reconstruction, visual SLAM, and 3D Gaussian Splatting.
-          - Implemented an incremental reconstruction pipeline for 26 multi-view images using SIFT matching, relative pose estimation, triangulation, and bundle adjustment.
-          - Produced an indoor-scene point cloud and analyzed reconstruction failure modes.
+          - Built an object-oriented visual SLAM system in Python, implementing SIFT/ORB feature extraction, geometric matching, relative pose estimation, PnP tracking, triangulation, and sparse bundle adjustment.
+          - Conducted controlled experiments on frame sampling, keyframe selection, feature density, and match filtering, comparing reprojection error, point-cloud density, and runtime across configurations.
+          - Extended the pipeline toward dense 3DGS-SLAM by integrating Depth Anything V2 and ADD-SLAM, and diagnosed failures caused by limited viewpoint coverage, depth-scale inconsistency, and camera-pose drift.
 
     Awards:
       - title: Cheng Family Scholarship
@@ -65,7 +64,7 @@ cv:
         keywords: Python, C/C++, MATLAB
       - name: Computer Vision and Robotics
         icon: fa-solid fa-eye
-        keywords: Multi-view geometry, 3D reconstruction, visual SLAM, robot perception
+        keywords: Multi-view geometry, 3D reconstruction, visual SLAM, 3D Gaussian Splatting, robot perception
       - name: Intelligent Systems
         icon: fa-solid fa-diagram-project
         keywords: Multi-agent systems, large language models, structured state management
@@ -74,11 +73,8 @@ cv:
         keywords: PyTorch, Pandas, Git, Linux, LaTeX
 
     Projects:
-      - name: C2-MANS
-        summary: A neuro-symbolic multi-agent system for maintaining logical consistency across long-form generated narratives.
-        start_date: Nov 2025
-        end_date: Apr 2026
-      - name: Incremental 3D Reconstruction
-        summary: A multi-view reconstruction pipeline using SIFT matching, pose estimation, triangulation, and bundle adjustment.
-        start_date: Jul 2026
-        end_date: Aug 2026
+      - name: Hypertension Risk Analysis and Logistic Regression
+        summary: A STAT1000J data science project analyzing hypertension risk with a Python data-analysis pipeline and logistic regression.
+        highlights:
+          - Built a Python data-analysis pipeline for 1,985 health records, including data cleaning, categorical encoding, feature scaling, visualization, and permutation-based hypothesis testing.
+          - Trained and evaluated a logistic-regression model with stratified splitting, achieving 75.31% test accuracy; analyzed feature coefficients, prediction errors, and confidence levels.
