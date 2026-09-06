@@ -16,18 +16,18 @@ cv:
         location: Ann Arbor, MI
         area: Computer Engineering
         studyType: Bachelor of Science in Engineering (B.S.E.)
-        start_date: Sep 2026
-        end_date: present
+        start_date: "2026"
+        end_date: Present
       - institution: Shanghai Jiao Tong University (SJTU)
         location: Shanghai, China
-        area: Electrical and Computer Engineering
+        area: Electrical and Computer Engineering (Expected June 2028)
         studyType: Bachelor of Science in Engineering (B.S.E.)
-        start_date: Sep 2024
-        end_date: Jun 2028 (expected)
+        start_date: "2024"
+        end_date: "2028"
         score: 3.68/4.0
         courses: Honors Mathematics IV (A+), Introduction to Circuits (A+), Physics II (A), Signals and Systems (A-), Data Structures and Algorithms
 
-    Research Experience:
+    Experience:
       - company: Shanghai Jiao Tong University
         position: Undergraduate Researcher
         location: Shanghai, China
