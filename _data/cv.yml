@@ -4,7 +4,7 @@ cv:
   email: hyzh@umich.edu
   location: Ann Arbor, MI
   image: ""
-  summary: Computer Engineering junior at the UM-SJTU Joint Institute with research interests in computer vision, robotics, multi-agent systems, and 3D reconstruction.
+  summary: Computer Engineering junior at the University of Michigan through the UM-SJTU Joint Institute, interested in 3D computer vision, visual SLAM, and feedforward 3D Gaussian Splatting. Experience includes multi-view reconstruction, Python research software, PyTorch-based systems, and multi-agent research.
 
   social_networks:
     - network: GitHub
