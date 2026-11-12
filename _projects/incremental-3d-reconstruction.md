@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Dinosaur Reconstruction
+title: Dinosaur SfM
 permalink: /projects/incremental-3d-reconstruction/
-description: Incremental SfM from 62 photographs, with sparse bundle adjustment, measured ablations, and an interactive 3D viewer.
+description: 62-view 3D reconstruction with sparse bundle adjustment, measured ablations, and an interactive viewer.
 img: assets/img/projects/dino-reconstruction.png
 importance: 1
 category: research
