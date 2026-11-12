@@ -14,7 +14,7 @@ A data preparation workflow for the University of Michigan Mars Rover team's roc
 
 The workflow starts with five manually selected landmarks in a video frame, propagates them with pretrained **CoTracker3**, and exports reviewed image/label pairs in **YOLO Pose** format. It handles frame sampling, black-border cropping, coordinate conversion, 640 × 480 output crops, and per-clip ZIP export to Google Drive.
 
-The organized repository includes input and output checks, human rejection of incorrect frames, a final five-visible-landmark rule, a pinned tracker revision, and CPU tests for geometry, label validation, review, and export. Dataset preparation keeps train/validation/test partitions separate by source recording or capture session to avoid leakage between nearby frames.
+The organized repository includes input and output checks, human rejection of incorrect frames, a final five-visible-landmark rule, a pinned tracker revision, and CPU tests for geometry, label validation, review, and export. Exported annotation batches still need train/validation/test splits by source recording or capture session before training, to avoid leakage between nearby frames.
 
 **Current scope:** annotation tooling and dataset preparation. The public repository does not contain a trained YOLO detector, model accuracy results, or a completed robot deployment. A fresh end-to-end Colab GPU run remains a verification step for the organized notebook.
 
