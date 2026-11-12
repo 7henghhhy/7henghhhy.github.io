@@ -3,7 +3,7 @@ layout: page
 title: C2-MANS
 description: A neuro-symbolic multi-agent system for logically consistent long-form narrative generation.
 img:
-importance: 1
+importance: 3
 category: research
 ---
 

@@ -1,14 +1,23 @@
 ---
 layout: page
-title: Incremental 3D Reconstruction
-description: Reconstructing an indoor scene from 26 multi-view images.
-img:
-importance: 2
+title: Dinosaur Reconstruction
+permalink: /projects/incremental-3d-reconstruction/
+description: Incremental SfM from 62 photographs, with sparse bundle adjustment, measured ablations, and an interactive 3D viewer.
+img: assets/img/projects/dino-reconstruction.png
+importance: 1
 category: research
 ---
 
-This project implements an incremental structure-from-motion pipeline for an indoor scene captured from 26 viewpoints.
+An incremental **Structure from Motion (SfM)** course project that reconstructs a dinosaur exhibit from 62 calibrated photographs.
 
-The pipeline uses SIFT feature matching, relative camera pose estimation, triangulation, and bundle adjustment to recover camera motion and generate a 3D point cloud. The project also analyzes reconstruction failures and connects the implementation to broader topics in multi-view geometry, visual SLAM, and 3D Gaussian Splatting.
+[Interactive 3D demo](https://7henghhhy.github.io/reconstrct-dino/) · [Source code](https://github.com/7henghhhy/reconstrct-dino) · [Dataset](https://github.com/7henghhhy/reconstrct-dino/releases/tag/dinosaur-data-v1)
 
-**Technologies:** Python, computer vision, SIFT, multi-view geometry, bundle adjustment.
+![Reconstructed dinosaur exhibit with camera and point-cloud controls]({{ '/assets/img/projects/dino-reconstruction.png' | relative_url }})
+
+The modular Python pipeline uses OpenCV SIFT features, mutual ratio matching and RANSAC, essential-matrix initialization, incremental PnP registration, triangulation, and sparse bundle adjustment in SciPy. The viewer lets visitors inspect reconstruction stages, camera poses, and input photographs, and download the recovered geometry.
+
+**Recorded results:** 62/62 registered cameras and 33,383 exported points. On the same 166,948 observations at 1600 × 1200 resolution, bundle adjustment reduced mean reprojection error from **0.648 to 0.345 pixels**. The solver reached its `ftol` stopping criterion after 80 evaluations. The repository also compares runs without BA, with half the images, and with chained essential-matrix poses.
+
+**What the measurements establish:** improved image-space consistency for this reconstruction. The sparse point cloud has arbitrary scale and limited surface coverage; no ground-truth poses or geometry were available to measure absolute 3D accuracy. This project does not provide a dense surface reconstruction or a complete SLAM system.
+
+**Technologies:** Python, OpenCV, NumPy, SciPy, Open3D, multi-view geometry, sparse bundle adjustment, JavaScript.
