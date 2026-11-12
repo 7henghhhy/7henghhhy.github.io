@@ -28,6 +28,8 @@ cv:
         end_date: "2028"
         score: 3.68/4.0
         courses: Honors Mathematics IV (A+), Introduction to Circuits (A+), Physics II (A), Signals and Systems (A-), Data Structures and Algorithms
+        highlights:
+          - GPA 3.68/4.0
 
     Experience:
       - company: Institute of Robotics and Machine Vision, Shanghai Jiao Tong University
