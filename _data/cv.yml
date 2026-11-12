@@ -51,7 +51,7 @@ cv:
         summary: Keypoint-based robot perception for autonomous rock-pick retrieval.
         highlights:
           - Developing keypoint-based pose estimation from a downward-facing USB camera, with position and keypoint outputs for the grasping subsystem.
-          - Built an approximately 10,000-frame dataset using CoTracker for auto-labeling and trained a YOLO-based keypoint model for rock-pick detection.
+          - Built an approximately 10,000-frame dataset using CoTracker for auto-labeling and am training a YOLO-based keypoint model on it.
           - Integrating with the rover software stack through ROS topics and the TF tree.
 
       - company: Shanghai Jiao Tong University
@@ -63,6 +63,15 @@ cv:
         highlights:
           - Designed a CrewAI pipeline of four specialized agents with Pydantic state models to keep long-form narratives logically consistent across chapters.
           - Implemented structured state layers, including RelationshipGraph and TimeLedger, with persistent storage for autonomous generation of 10-chapter novellas.
+
+      - company: ENGR1000J
+        position: Space Magnetic Retrieval System Demonstrator
+        start_date: Jul 2025
+        end_date: Jul 2025
+        summary: Team project with five members.
+        highlights:
+          - Designed and modeled the retrieval subsystem in SolidWorks, including a spring launcher, neodymium-magnet carrier, worm gear, and motorized reel.
+          - Validated the design through 100 controlled trials across five distances, achieving 1.2 m launch accuracy and a 40:1 payload-to-platform weight ratio.
 
     Awards:
       - title: Cheng Family Scholarship

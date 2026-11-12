@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 cv_pdf: /assets/pdf/Haoyuan_Zheng_CV.pdf
 cv_format: rendercv # options: rendercv, jsonresume
-description: Education, research experience, awards, and technical skills.
+description: Education, research and project experience, awards, and technical skills.
 toc:
   sidebar: left
 ---
