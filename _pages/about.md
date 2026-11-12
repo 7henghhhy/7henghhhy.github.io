@@ -28,7 +28,7 @@ latest_posts:
 
 I am a Computer Engineering junior at the University of Michigan and an Electrical and Computer Engineering student at Shanghai Jiao Tong University through the UM-SJTU Joint Institute. My interests include robot perception, visual SLAM, and 3D scene representations.
 
-At Michigan Mars Rover (MRover), I work on the rock-pick perception task. My recent work focuses on CoTracker3-assisted keypoint annotation, human review, and preparing data for pose-model training. [MRover project and code]({{ '/projects/mrover-rockpick/' | relative_url }}).
+At Michigan Mars Rover (MRover), I work on rock-pick detection and keypoint-based pose estimation for autonomous retrieval. I built an approximately 10,000-frame dataset with CoTracker-assisted labeling and trained a YOLO-based keypoint model for detection. I am integrating the model with the rover software stack through ROS topics and the TF tree. [MRover project and code]({{ '/projects/mrover-rockpick/' | relative_url }}).
 
 My 3D vision work includes Dinosaur SfM, an incremental reconstruction pipeline using SIFT matching, RANSAC, PnP, triangulation, and sparse bundle adjustment. The recorded reconstruction registers all 62 cameras, and I evaluated the effects of bundle adjustment, image sampling, and pose-estimation choices. [Project and code]({{ '/projects/incremental-3d-reconstruction/' | relative_url }}) · [Interactive 3D demo](https://7henghhhy.github.io/reconstrct-dino/).
 

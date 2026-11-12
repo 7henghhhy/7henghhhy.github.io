@@ -2,9 +2,10 @@ cv:
   name: Haoyuan Zheng
   label: Computer Engineering Undergraduate
   email: hyzh@umich.edu
+  phone: "+1 734-210-4531"
   location: Ann Arbor, MI
   image: ""
-  summary: Computer Engineering junior at the University of Michigan through the UM-SJTU Joint Institute, interested in 3D computer vision, visual SLAM, and feedforward 3D Gaussian Splatting. Experience includes multi-view reconstruction, Python research software, PyTorch-based systems, and multi-agent research.
+  summary: Computer Engineering junior with experience in visual SLAM, 3D reconstruction, keypoint-based robot perception, and multi-agent systems.
 
   social_networks:
     - network: GitHub
@@ -18,6 +19,7 @@ cv:
         studyType: Bachelor of Science in Engineering (B.S.E.)
         start_date: "2026"
         end_date: Present
+        courses: EECS 245, EECS 311, and EECS 370 (in progress)
       - institution: Shanghai Jiao Tong University (SJTU)
         location: Shanghai, China
         area: Electrical and Computer Engineering (Expected June 2028)
@@ -28,27 +30,37 @@ cv:
         courses: Honors Mathematics IV (A+), Introduction to Circuits (A+), Physics II (A), Signals and Systems (A-), Data Structures and Algorithms
 
     Experience:
-      - company: Shanghai Jiao Tong University
-        position: Undergraduate Researcher
-        location: Shanghai, China
-        start_date: Nov 2025
-        end_date: Apr 2026
-        summary: Design and implementation of a distributed multi-agent system for novel generation, advised by Professor Jiong Lou.
-        highlights:
-          - Designed C2-MANS, a neuro-symbolic multi-agent system combining large language models with Pydantic state models for logically consistent long-form narratives.
-          - Architected a CrewAI pipeline with four specialized agents, scene-level constraints, and post-generation state synchronization.
-          - Developed persistent storage and structured state layers, including RelationshipGraph and TimeLedger, for autonomous 10-chapter novella generation.
-
       - company: Institute of Robotics and Machine Vision, Shanghai Jiao Tong University
-        position: Undergraduate Research Project
+        position: Visual SLAM and 3D Vision
         location: Shanghai, China
         start_date: Jul 2026
         end_date: Aug 2026
-        summary: 3D vision and visual SLAM research project mentored by Tianchen Deng, Ph.D. student.
+        summary: Advised by Prof. Hesheng Wang.
         highlights:
-          - Built an object-oriented visual SLAM system in Python, implementing SIFT/ORB feature extraction, geometric matching, relative pose estimation, PnP tracking, triangulation, and sparse bundle adjustment.
+          - Built an object-oriented visual SLAM system in Python with SIFT/ORB features, geometric matching, relative pose estimation, PnP tracking, triangulation, and sparse bundle adjustment.
           - Conducted controlled experiments on frame sampling, keyframe selection, feature density, and match filtering, comparing reprojection error, point-cloud density, and runtime across configurations.
           - Extended the pipeline toward dense 3DGS-SLAM by integrating Depth Anything V2 and ADD-SLAM, and diagnosed failures caused by limited viewpoint coverage, depth-scale inconsistency, and camera-pose drift.
+
+      - company: Michigan Mars Rover Team (MRover)
+        position: Rock Pick Pose Estimation
+        location: Ann Arbor, MI
+        start_date: "2026"
+        end_date: Present
+        summary: Keypoint-based robot perception for autonomous rock-pick retrieval.
+        highlights:
+          - Developing keypoint-based pose estimation from a downward-facing USB camera, with position and keypoint outputs for the grasping subsystem.
+          - Built an approximately 10,000-frame dataset using CoTracker for auto-labeling and trained a YOLO-based keypoint model for rock-pick detection.
+          - Integrating with the rover software stack through ROS topics and the TF tree.
+
+      - company: Shanghai Jiao Tong University
+        position: C2-MANS - Neuro-Symbolic Multi-Agent Novel Generation
+        location: Shanghai, China
+        start_date: Nov 2025
+        end_date: Apr 2026
+        summary: Advised by Prof. Jiong Lou.
+        highlights:
+          - Designed a CrewAI pipeline of four specialized agents with Pydantic state models to keep long-form narratives logically consistent across chapters.
+          - Implemented structured state layers, including RelationshipGraph and TimeLedger, with persistent storage for autonomous generation of 10-chapter novellas.
 
     Awards:
       - title: Cheng Family Scholarship
@@ -64,17 +76,7 @@ cv:
         keywords: Python, C/C++, MATLAB
       - name: Computer Vision and Robotics
         icon: fa-solid fa-eye
-        keywords: Multi-view geometry, 3D reconstruction, visual SLAM, 3D Gaussian Splatting, robot perception
-      - name: Intelligent Systems
-        icon: fa-solid fa-diagram-project
-        keywords: Multi-agent systems, large language models, structured state management
+        keywords: Visual SLAM, multi-view geometry, 3D reconstruction, object detection and keypoint models (YOLO), ROS, SolidWorks, prototyping
       - name: Tools and Libraries
         icon: fa-solid fa-screwdriver-wrench
         keywords: PyTorch, Pandas, Git, Linux, LaTeX
-
-    Projects:
-      - name: Hypertension Risk Analysis and Logistic Regression
-        summary: A STAT1000J data science project analyzing hypertension risk with a Python data-analysis pipeline and logistic regression.
-        highlights:
-          - Built a Python data-analysis pipeline for 1,985 health records, including data cleaning, categorical encoding, feature scaling, visualization, and permutation-based hypothesis testing.
-          - Trained and evaluated a logistic-regression model with stratified splitting, achieving 75.31% test accuracy; analyzed feature coefficients, prediction errors, and confidence levels.
