@@ -9,7 +9,7 @@ last_name: Zheng
 contact_note: >
   The best way to reach me is by email at hyzh@umich.edu.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Haoyuan Zheng, a Computer Engineering junior at the UM-SJTU Joint Institute.
+  Haoyuan Zheng is a Computer Engineering junior at the University of Michigan working on robot perception, visual SLAM, and 3D reconstruction.
 footer_text: >
   # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

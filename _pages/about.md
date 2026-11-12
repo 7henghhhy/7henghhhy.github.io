@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Engineering junior at the University of Michigan; Electrical and Computer Engineering at UM-SJTU Joint Institute
+subtitle: Computer Engineering junior at U-M · Robot perception and 3D vision
 
 profile:
   align: right
@@ -26,10 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a junior majoring in Computer Engineering at the University of Michigan. My interests lie at the intersection of 3D computer vision, robotics, and intelligent systems.
+I am a Computer Engineering junior at the University of Michigan and an Electrical and Computer Engineering student at Shanghai Jiao Tong University through the UM-SJTU Joint Institute. My interests include robot perception, visual SLAM, and 3D scene representations.
 
-My recent research includes C2-MANS, a Python-based neuro-symbolic multi-agent system that uses structured state models to maintain consistency across long-form narrative generation. I also built a multi-view 3D reconstruction and visual SLAM pipeline with SIFT/ORB matching, relative pose estimation, PnP tracking, triangulation, and bundle adjustment. I evaluated how frame sampling, keyframe selection, feature density, and match filtering affect reconstruction quality and runtime, and explored dense 3DGS-SLAM with Depth Anything V2 and ADD-SLAM.
+At Michigan Mars Rover (MRover), I work on the rock-pick perception task. My recent work focuses on CoTracker3-assisted keypoint annotation, human review, and preparing data for pose-model training. [MRover project and code]({{ '/projects/mrover-rockpick/' | relative_url }}).
 
-I am particularly interested in 3D vision, visual SLAM, feedforward 3D Gaussian Splatting, robot perception, and reliable agent systems.
+My 3D vision work includes Dinosaur SfM, an incremental reconstruction pipeline using SIFT matching, RANSAC, PnP, triangulation, and sparse bundle adjustment. The recorded reconstruction registers all 62 cameras, and I evaluated the effects of bundle adjustment, image sampling, and pose-estimation choices. [Project and code]({{ '/projects/incremental-3d-reconstruction/' | relative_url }}) · [Interactive 3D demo](https://7henghhhy.github.io/reconstrct-dino/).
 
-I work primarily with Python, C/C++, MATLAB, PyTorch, and Linux.
+I previously developed C2-MANS, a neuro-symbolic multi-agent system for long-form narrative generation. It combines LLMs with structured state models to maintain consistency across chapters, using CrewAI and Pydantic. [C2-MANS project]({{ '/projects/c2-mans/' | relative_url }}).
+
+I work primarily with Python and C/C++, using OpenCV, NumPy/SciPy, PyTorch, Git, and Linux.
