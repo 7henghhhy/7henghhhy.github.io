@@ -36,6 +36,4 @@ My 3D vision work includes Dinosaur SfM, an incremental reconstruction pipeline 
 
 I previously developed C2-MANS, a neuro-symbolic multi-agent system for long-form narrative generation. It combines LLMs with structured state models to maintain consistency across chapters, using CrewAI and Pydantic. [C2-MANS project]({{ '/projects/c2-mans/' | relative_url }}).
 
-In a five-member ENGR1000J team, I designed and modeled a space magnetic retrieval subsystem in SolidWorks. We validated the demonstrator through 100 controlled trials across five distances, with 1.2 m launch accuracy and a 40:1 payload-to-platform weight ratio.
-
 I work primarily with Python, C/C++, and MATLAB. My tools include PyTorch, Pandas, ROS, SolidWorks, Git, Linux, and LaTeX.
